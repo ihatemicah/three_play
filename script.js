@@ -18,10 +18,10 @@ const canvas = document.querySelector("canvas.webgl");
 const scene = new THREE.Scene();
 
 const textureLoader = new THREE.TextureLoader();
-const baseColorTexture = textureLoader.load("./images/BrushedIron01_MR_2K/BrushedIron01_2K_BaseColor.png")
-const normalTexture = textureLoader.load("./images/BrushedIron01_MR_2K/BrushedIron01_2K_Normal.png")
-const roughnessTexture = textureLoader.load("./images/Fingerprints_sl4fafbc_1K_Roughness.jpg")
-const metalnessTexture = textureLoader.load("./images/BrushedIron01_MR_2K/BrushedIron01_2K_Metalness.png")
+const baseColorTexture = textureLoader.load("./public/images/BrushedIron01_MR_2K/BrushedIron01_2K_BaseColor.png")
+const normalTexture = textureLoader.load("./public/images/BrushedIron01_MR_2K/BrushedIron01_2K_Normal.png")
+const roughnessTexture = textureLoader.load("./public/images/Fingerprints_sl4fafbc_1K_Roughness.jpg")
+const metalnessTexture = textureLoader.load("./public/images/BrushedIron01_MR_2K/BrushedIron01_2K_Metalness.png")
 
 baseColorTexture.colorSpace = THREE.SRGBColorSpace;
 normalTexture.colorSpace = THREE.SRGBColorSpace;
