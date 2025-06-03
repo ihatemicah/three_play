@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/three_play/',
   build: {
     outDir: 'docs',
     rollupOptions: {
